@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container":"#1c2026","inverse-primary":"#00687a","on-surface-variant":"#bcc9cd","tertiary-container":"#23b2ec","surface-tint":"#4cd7f6","error":"#ffb4ab","primary-fixed-dim":"#4cd7f6","on-surface":"#dfe2eb","surface-container-low":"#181c22","on-secondary":"#003824","tertiary":"#7bd0ff","primary-fixed":"#acedff","on-error-container":"#ffdad6","secondary-fixed-dim":"#4edea3","surface-container-lowest":"#0a0e14","on-error":"#690005","surface":"#10141a","tertiary-fixed-dim":"#7bd0ff","on-primary-fixed-variant":"#004e5c","background":"#10141a","secondary-fixed":"#6ffbbe","primary-container":"#06b6d4","on-tertiary-container":"#00415a","on-secondary-fixed":"#002113","on-primary":"#003640","primary":"#4cd7f6","outline-variant":"#3d494c","surface-dim":"#10141a","on-primary-fixed":"#001f26","surface-bright":"#353940","on-tertiary-fixed-variant":"#004c69","tertiary-fixed":"#c4e7ff","secondary":"#4edea3","inverse-surface":"#dfe2eb","outline":"#869397","on-tertiary-fixed":"#001e2c","secondary-container":"#00a572","surface-container-high":"#262a31","on-tertiary":"#00354a","surface-container-highest":"#31353c","surface-variant":"#31353c","on-secondary-fixed-variant":"#005236","on-primary-container":"#00424f","inverse-on-surface":"#2d3137","error-container":"#93000a","on-background":"#dfe2eb","on-secondary-container":"#00311f"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"2xl":"3rem","md":"0.75rem","sm":"0.5rem","margin-desktop":"1.5rem","lg":"1.5rem","margin-mobile":"1rem","xs":"0.25rem","xl":"2rem","base":"1rem","px":"1px","gutter":"1rem"},fontFamily:{"headline-md":["Inter"],"body-sm":["Inter"],"code-md":["JetBrains Mono"],"display-lg-mobile":["Inter"],"display-lg":["Inter"],"headline-sm":["Inter"],"body-md":["Inter"],"code-sm":["JetBrains Mono"],"badge-label":["JetBrains Mono"]},fontSize:{"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.02em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0em",fontWeight:"400"}],"code-md":["13px",{lineHeight:"20px",letterSpacing:"-0.01em",fontWeight:"400"}],"display-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"600"}],"display-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"600"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"-0.005em",fontWeight:"400"}],"code-sm":["11px",{lineHeight:"16px",letterSpacing:"0em",fontWeight:"500"}],"badge-label":["10px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-base"><a class="flex items-center gap-sm group" data-path="portfolio-home" href="#home"><div class="w-9 h-9 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors"><span class="font-code-md text-code-md font-semibold tracking-tight">AM</span></div><span class="hidden sm:inline-block font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Aashish Mishra</span></a></div><nav class="hidden md:flex items-center gap-lg" data-active-classes="text-primary font-semibold"><a aria-current="page" class="transition-colors text-primary font-semibold" data-path="portfolio-home" href="#home">Home</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#about">About</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="skills" href="#skills">Skills</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="experience" href="#experience">Experience</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#projects">Projects</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="journey" href="#journey">Journey</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-md"><a class="hidden sm:inline-flex items-center justify-center px-lg py-sm rounded-xl bg-primary-container text-on-primary-container font-body-md text-body-md font-semibold hover:bg-primary transition-all" data-path="contact" href="#contact">Let's Talk</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button aria-label="Toggle Navigation Menu" class="md:hidden flex items-center justify-center w-9 h-9 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined">menu</span></button></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full text-on-surface bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- ================================================================= -->
+<!-- 1. HERO SECTION (id='home')                                       -->
+<!-- ================================================================= -->
+<section class="w-full relative overflow-hidden pt-12 pb-24 lg:pt-20 lg:pb-32" id="home">
+<!-- Subtle Background Glow Elements -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute -top-10 right-10 w-72 h-72 bg-secondary/5 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Hero Column -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<!-- Status Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-high shadow-sm mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-badge-label text-badge-label text-secondary tracking-wider font-semibold">AVAILABLE FOR OPPORTUNITIES</span>
+</div>
+<!-- Hero Headings -->
+<h1 class="font-display-lg text-display-lg lg:text-[44px] text-on-surface font-bold tracking-tight mb-3">
+            Hi, I'm <span class="text-primary">Aashish Mishra</span>.
+          </h1>
+<h2 class="font-headline-md text-headline-md text-on-surface-variant font-medium mb-6">
+            I Build Full-Stack Web Applications.
+          </h2>
+<!-- Supporting Text (Strictly 1st Person) -->
+<p class="font-body-md text-body-md text-on-surface-variant/90 max-w-xl mb-8 leading-relaxed">
+            I'm a Full-Stack Developer focused on building modern web applications using the MERN stack and Python. I enjoy turning ideas into functional, scalable, and user-friendly software from initial schema design to deployed client interfaces.
+          </p>
+<!-- Primary Actions -->
+<div class="flex flex-wrap items-center gap-4 mb-10 w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary-container text-on-primary-container font-headline-sm text-[15px] font-semibold hover:bg-primary transition-all duration-150 shadow-md" href="#projects">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span>View My Projects</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-surface-container-high text-on-surface hover:bg-surface-container-highest font-headline-sm text-[15px] font-semibold transition-all duration-150 shadow-sm" href="#contact">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Contact Me</span>
+</a>
+</div>
+<!-- Secondary Links & Quick Specs -->
+<div class="flex flex-wrap items-center gap-4 text-on-surface-variant font-code-sm text-code-sm">
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:text-primary transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>GitHub</span>
+</a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:text-primary transition-colors" href="https://linkedin.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">hub</span>
+<span>LinkedIn</span>
+</a>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:text-secondary transition-colors" onclick="alert('Downloading Aashish Mishra Resume (PDF)...')" type="button">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Resume.pdf</span>
+</button>
+</div>
+</div>
+<!-- Right Hero Column: Interactive Terminal Simulator -->
+<div class="lg:col-span-5 w-full">
+<div class="bg-surface-container-lowest rounded-xl shadow-2xl overflow-hidden flex flex-col">
+<!-- Terminal Header -->
+<div class="bg-surface-container px-4 py-3 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-[#f59e0b]"></span>
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-code-sm text-code-sm text-on-surface-variant ml-2 font-mono">aashish@workstation: ~</span>
+</div>
+<span class="font-badge-label text-badge-label text-primary bg-primary/10 px-2 py-0.5 rounded">zsh</span>
+</div>
+<!-- Terminal Interactive Quick-Command Chips -->
+<div class="bg-surface-container-low px-4 py-2 flex flex-wrap gap-2 items-center">
+<span class="font-code-sm text-code-sm text-on-surface-variant">run:</span>
+<button class="font-code-sm text-code-sm px-2 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary transition-colors" onclick="runTerminalCommand('whoami')" type="button">$ whoami</button>
+<button class="font-code-sm text-code-sm px-2 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary transition-colors" onclick="runTerminalCommand('stack')" type="button">$ stack</button>
+<button class="font-code-sm text-code-sm px-2 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary transition-colors" onclick="runTerminalCommand('focus')" type="button">$ focus</button>
+<button class="font-code-sm text-code-sm px-2 py-1 rounded bg-surface-container hover:text-error text-on-surface-variant ml-auto transition-colors" onclick="clearTerminalLogs()" type="button">clear</button>
+</div>
+<!-- Terminal Screen Buffer -->
+<div class="p-5 font-code-md text-code-md space-y-3 min-h-[260px] max-h-[320px] overflow-y-auto font-mono text-on-surface" id="terminal-buffer">
+<div class="text-on-surface-variant">
+<span class="text-secondary">➜</span> <span class="text-primary">~</span> <span class="text-on-surface">whoami</span>
+</div>
+<div class="text-on-surface pl-4 bg-surface-container-low/40 p-2 rounded">
+                Aashish Mishra — Full-Stack &amp; Python Developer
+              </div>
+<div class="text-on-surface-variant">
+<span class="text-secondary">➜</span> <span class="text-primary">~</span> <span class="text-on-surface">stack</span>
+</div>
+<div class="text-on-surface pl-4 bg-surface-container-low/40 p-2 rounded">
+                React.js, Node.js, Express.js, MongoDB, Python, Django, Redux Toolkit, REST APIs
+              </div>
+<div class="text-on-surface-variant">
+<span class="text-secondary">➜</span> <span class="text-primary">~</span> <span class="text-on-surface">focus</span>
+</div>
+<div class="text-secondary pl-4 bg-surface-container-low/40 p-2 rounded">
+                Full-Stack Architecture &amp; Expanding into AI / Machine Learning
+              </div>
+</div>
+<!-- Terminal Interactive Input -->
+<form class="bg-surface-container-low p-3 flex items-center gap-2" onsubmit="handleTerminalSubmit(event)">
+<span class="text-secondary font-code-md text-code-md">➜</span>
+<span class="text-primary font-code-md text-code-md">~</span>
+<input autocomplete="off" class="w-full bg-transparent font-code-md text-code-md text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none" id="terminal-input" placeholder="type 'whoami', 'stack', 'focus', 'help'..." type="text"/>
+<button class="px-2.5 py-1 text-xs rounded bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-code-sm" type="submit">Exec</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 2. ABOUT ME (id='about')                                          -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface-container-lowest" id="about">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">01 / Profile Overview</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">About Me</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left Column: 1st Person Narrative -->
+<div class="lg:col-span-7 bg-surface-container rounded-xl p-8 shadow-sm flex flex-col justify-between">
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p class="text-on-surface font-medium text-[15px]">
+              I'm a Full-Stack Developer who enjoys building complete web applications — from responsive frontend interfaces to backend APIs and database systems.
+            </p>
+<p>
+              I started my development journey with web technologies and gradually moved into full-stack development using React, Node.js, Express.js, and MongoDB. Along the way, I also developed my Python skills and started working with Python-based development and data/AI technologies.
+            </p>
+<p>
+              I enjoy understanding how systems work behind the interface — from API architecture and authentication to databases, state management, and third-party integrations.
+            </p>
+<p class="text-primary/90">
+              Currently, I'm expanding my knowledge toward Artificial Intelligence and Machine Learning while continuing to strengthen my full-stack development skills.
+            </p>
+</div>
+<div class="mt-8 pt-6 flex flex-wrap gap-4 items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+<span class="font-code-sm text-code-sm text-on-surface font-medium">Modular Architecture</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">database</span>
+<span class="font-code-sm text-code-sm text-on-surface font-medium">Robust Schemas</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">memory</span>
+<span class="font-code-sm text-code-sm text-on-surface font-medium">Active AI/ML Study</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Developer Quick-Facts Bento Grid -->
+<div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-badge-label text-badge-label text-primary font-mono">01 // TIER</span>
+<span class="material-symbols-outlined text-primary text-[24px]">devices</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Frontend</h3>
+<p class="font-code-sm text-code-sm text-on-surface-variant">React • JavaScript • Tailwind CSS • Redux Toolkit</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-badge-label text-badge-label text-primary font-mono">02 // TIER</span>
+<span class="material-symbols-outlined text-primary text-[24px]">dns</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Backend</h3>
+<p class="font-code-sm text-code-sm text-on-surface-variant">Node.js • Express • Python • Django REST</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-badge-label text-badge-label text-primary font-mono">03 // TIER</span>
+<span class="material-symbols-outlined text-primary text-[24px]">storage</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Database</h3>
+<p class="font-code-sm text-code-sm text-on-surface-variant">MongoDB • Atlas • Mongoose • MySQL</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-badge-label text-badge-label text-secondary font-mono">04 // EXPANSION</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">psychology</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Current Focus</h3>
+<p class="font-code-sm text-code-sm text-secondary">Expanding into AI / ML &amp; High-Availability System Design</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 3. TECHNICAL SKILLS & PROFICIENCY (id='skills')                  -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface" id="skills">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">02 / Technical Skills</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Engineering Proficiency &amp; Tooling</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          A structured inventory of technologies, frameworks, and system architectural domains I work with regularly.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Frontend Card -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Frontend Engineering</span>
+<span class="material-symbols-outlined text-primary text-[22px]">laptop_mac</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">React &amp; Ecosystem</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Functional Components, Custom Hooks, useContext, React Router, Vite, Reusable UI Architecture</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">JavaScript (ES6+)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Async/Await, Closures, DOM Manipulation, ES Modules, Event Loop, Promises</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">State Management</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Redux Toolkit: ConfigureStore, CreateSlice, Dispatch, Selectors, Async Thunks</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Modern Styling</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tailwind CSS, Responsive Design, CSS Grid, Flexbox, Semantic HTML5, Web Accessibility</p>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex flex-wrap gap-1.5">
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">React</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">JavaScript</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Redux Toolkit</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Tailwind</span>
+</div>
+</div>
+<!-- Backend Card -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Backend Architecture</span>
+<span class="material-symbols-outlined text-primary text-[22px]">dns</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Node.js &amp; Express.js</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">V8 Runtime, Async Non-blocking I/O, Modular MVC Architecture, Middleware, REST APIs, CRUD Endpoints</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Python Backend</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">OOP, Exception Handling, File I/O, Comprehensions, Decorators, Python Standard Library</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Django Web Framework</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Models, ORM, URL Routing, Views, Admin Interface, Database Migrations</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">API Lifecycle</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Status Codes, Error Handlers, Request Payload Sanitization, Rate Limiting</p>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex flex-wrap gap-1.5">
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Node.js</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Express</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Python</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Django</span>
+</div>
+</div>
+<!-- Database Engineering -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Database Engineering</span>
+<span class="material-symbols-outlined text-primary text-[22px]">database</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">MongoDB &amp; Mongoose</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Atlas Cloud Clusters, Document Collections, Data Modeling, Schema Validation, Query Population, Aggregation</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">MySQL &amp; Relational Databases</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Relational Schema Design, Primary/Foreign Keys, Normalization, Complex SQL Queries, JOINs, Indexing</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Data Persistence Strategies</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Atomic transactions, Referential Integrity, Connection Pooling, Cloud Backups</p>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex flex-wrap gap-1.5">
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">MongoDB</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Mongoose</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">MySQL</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Atlas</span>
+</div>
+</div>
+<!-- Python Ecosystem & AI/ML Expansion (Double Span on Desktop) -->
+<div class="lg:col-span-2 bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Python Ecosystem &amp; AI / ML Expansion</span>
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-secondary/10 text-secondary font-badge-label text-badge-label font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary mr-1.5 animate-pulse"></span>ACTIVE LEARNING FOCUS
+                </span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[22px]">psychology</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="space-y-3">
+<div class="font-code-sm text-code-sm text-primary font-medium">Core Python &amp; Tooling</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Python 3 standard modules (<span class="text-on-surface font-mono">os, sys, json, pathlib, datetime, math, re</span>), Virtual Environments (<span class="text-on-surface font-mono">venv</span>), pip package management, requirements.txt, and code structuring.
+                </p>
+</div>
+<div class="space-y-3">
+<div class="font-code-sm text-code-sm text-secondary font-medium">Data &amp; Numerical Computing</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="text-on-surface">NumPy:</strong> N-dimensional arrays, vectorized operations, linear algebra basics.<br/>
+<strong class="text-on-surface">Pandas:</strong> Series &amp; DataFrames, data ingestion, transformation, filtering, and cleaning.
+                </p>
+</div>
+<div class="space-y-3 sm:col-span-2">
+<div class="font-code-sm text-code-sm text-secondary font-medium">Machine Learning Progression Path</div>
+<div class="bg-surface-container-low p-3 rounded-lg flex flex-wrap gap-2 text-on-surface font-code-sm text-code-sm">
+<span class="bg-surface px-2 py-1 rounded">NumPy / Pandas</span>
+<span class="text-on-surface-variant">→</span>
+<span class="bg-surface px-2 py-1 rounded">Matplotlib Data Viz</span>
+<span class="text-on-surface-variant">→</span>
+<span class="bg-surface px-2 py-1 rounded">Probability &amp; Statistics</span>
+<span class="text-on-surface-variant">→</span>
+<span class="bg-surface px-2 py-1 rounded">Scikit-learn Algorithms</span>
+<span class="text-on-surface-variant">→</span>
+<span class="bg-secondary/20 text-secondary px-2 py-1 rounded font-medium">Deep Learning</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex flex-wrap gap-1.5">
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Python 3</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">NumPy</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Pandas</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Matplotlib</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-secondary/15 text-secondary">Scikit-Learn (Roadmap)</span>
+</div>
+</div>
+<!-- APIs, Architecture & Security -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">APIs, Security &amp; Integrations</span>
+<span class="material-symbols-outlined text-primary text-[22px]">security</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Third-Party Integrations</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Razorpay payment gateway, Cloudinary CDN asset uploads, external Currency Exchange REST APIs.</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Auth &amp; Encryption</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">JWT tokens, OTP verification cycles, bcrypt password hashing, session control, protected routes.</p>
+</div>
+<div>
+<div class="font-code-sm text-code-sm text-primary font-medium mb-1">Network Client</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Axios interceptors, Fetch API, CORS handling, payload validation schemas.</p>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex flex-wrap gap-1.5">
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">JWT</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Razorpay</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Cloudinary</span>
+<span class="font-badge-label text-badge-label px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Bcrypt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 4. FULL-STACK ARCHITECTURE VISUALIZATION                          -->
+<!-- ================================================================= -->
+<section class="w-full py-16 bg-surface-container-lowest">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="mb-8">
+<span class="font-code-sm text-code-sm text-primary uppercase font-semibold">System Design Blueprint</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Full-Stack Production Pipeline</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">How I engineer and connect full-stack data flow across frontend components, backend services, and cloud storage.</p>
+</div>
+<!-- Architecture Flow Diagram Card -->
+<div class="bg-surface-container rounded-xl p-8 shadow-md">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+<!-- Node 1: Client -->
+<div class="bg-surface-container-high p-5 rounded-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-badge-label text-badge-label text-primary font-mono font-semibold">LAYER 01</span>
+<span class="material-symbols-outlined text-primary text-[20px]">web</span>
+</div>
+<div class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Client Interface</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">React SPA + Redux Toolkit centralized state &amp; UI views.</p>
+</div>
+<div class="mt-4 pt-3 font-code-sm text-code-sm text-primary bg-surface-container-lowest px-2.5 py-1.5 rounded">
+              Axios / Fetch HTTP
+            </div>
+</div>
+<!-- Node 2: API Gateway / Server -->
+<div class="bg-surface-container-high p-5 rounded-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-badge-label text-badge-label text-primary font-mono font-semibold">LAYER 02</span>
+<span class="material-symbols-outlined text-primary text-[20px]">sync_alt</span>
+</div>
+<div class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">API Controller</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Node.js &amp; Express.js routing, JWT auth middleware &amp; sanitization.</p>
+</div>
+<div class="mt-4 pt-3 font-code-sm text-code-sm text-primary bg-surface-container-lowest px-2.5 py-1.5 rounded">
+              Mongoose ORM Queries
+            </div>
+</div>
+<!-- Node 3: Database -->
+<div class="bg-surface-container-high p-5 rounded-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-badge-label text-badge-label text-primary font-mono font-semibold">LAYER 03</span>
+<span class="material-symbols-outlined text-primary text-[20px]">database</span>
+</div>
+<div class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Database Cluster</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">MongoDB Atlas cloud document models, schemas &amp; collections.</p>
+</div>
+<div class="mt-4 pt-3 font-code-sm text-code-sm text-secondary bg-surface-container-lowest px-2.5 py-1.5 rounded">
+              JSON Documents
+            </div>
+</div>
+<!-- Node 4: External Services -->
+<div class="bg-surface-container-high p-5 rounded-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-badge-label text-badge-label text-secondary font-mono font-semibold">EXT SERVICES</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">cloud_sync</span>
+</div>
+<div class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Cloud Infrastructure</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Media delivery &amp; payment gateway endpoints connected to backend.</p>
+</div>
+<div class="mt-4 pt-3 font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-2.5 py-1.5 rounded">
+              Razorpay + Cloudinary
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 5. MY EXPERIENCE (id='experience')                                -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface" id="experience">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">03 / Track Record</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">My Experience</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Practical software engineering experience I gained through full-stack internships.
+        </p>
+</div>
+<div class="space-y-6">
+<!-- Experience 1: Success Technology -->
+<div class="bg-surface-container rounded-xl p-8 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">
+                Success Technology
+              </h3>
+<span class="text-primary font-code-sm text-code-sm font-medium">Full-Stack / Admin Panel Development Intern</span>
+</div>
+<span class="font-badge-label text-badge-label px-3 py-1 rounded bg-surface-container-high text-on-surface-variant w-fit">
+              INTERNSHIP TENURE
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            During my internship at Success Technology, I worked on an admin panel and gained practical experience developing and managing web application features. I worked with frontend interfaces, backend integration, API communication, CRUD functionality, and database-driven application workflows.
+          </p>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">HTML</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">CSS</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">JavaScript</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">MongoDB</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">REST APIs</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Admin Dashboard</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">CRUD</span>
+</div>
+</div>
+<!-- Experience 2: Kritya Technology -->
+<div class="bg-surface-container rounded-xl p-8 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">
+                Kritya Technology
+              </h3>
+<span class="text-primary font-code-sm text-code-sm font-medium">Full-Stack / E-Commerce Development Intern</span>
+</div>
+<span class="font-badge-label text-badge-label px-3 py-1 rounded bg-surface-container-high text-on-surface-variant w-fit">
+              INTERNSHIP TENURE
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            At Kritya Technology, I worked on an e-commerce website and admin panel. I gained practical experience working on product-related workflows, frontend interfaces, backend APIs, database operations, and administrative functionality. This experience helped me understand how real-world e-commerce applications are structured and maintained.
+          </p>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">JavaScript</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">MongoDB</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Mongoose</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">REST APIs</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">E-Commerce</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Admin Panel</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Authentication</span>
+</div>
+</div>
+<!-- Experience 3: Niqox Tech -->
+<div class="bg-surface-container rounded-xl p-8 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">
+                Niqox Tech
+              </h3>
+<span class="text-primary font-code-sm text-code-sm font-medium">MERN &amp; Python Development Intern</span>
+</div>
+<span class="font-badge-label text-badge-label px-3 py-1 rounded bg-surface-container-high text-on-surface-variant w-fit">
+              INTERNSHIP TENURE
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            At Niqox Tech, I worked across MERN stack and Python-based development. I worked with frontend development, backend APIs, database operations, and Python development while gaining practical exposure to full-stack application architecture. This experience helped me understand how different technologies can work together to build complete software applications.
+          </p>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">JavaScript</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-primary font-medium">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">MongoDB</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-secondary font-medium">Python</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-secondary font-medium">Django</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">REST APIs</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Full-Stack Architecture</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 6. FEATURED PROJECTS (id='projects')                              -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface-container-lowest" id="projects">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">04 / Portfolio Showcase</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Featured Projects</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Production applications and systems I have architected, developed, and deployed.
+        </p>
+</div>
+<!-- Projects Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Project 01: Fashion E-Commerce Platform -->
+<div class="bg-surface-container rounded-xl p-6 lg:p-8 shadow-sm flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-code-sm text-code-sm text-primary font-mono font-semibold">PROJECT 01 // FULL-STACK</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">shopping_bag</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">
+              Fashion E-Commerce Platform
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              I built a full-stack fashion e-commerce application using the MERN stack. Designed with modular controllers, authentication, and full order processing logic.
+            </p>
+<!-- Key Features -->
+<div class="space-y-2 mb-6">
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>User registration, JWT login authentication, and secure password hashing.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Product catalog, dynamic shopping cart, and Razorpay payment checkout integration.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Dedicated administrative dashboard with Cloudinary image upload workflows.</span>
+</div>
+</div>
+<!-- Tech Stack Tags -->
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">Vite</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Redux Toolkit</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">MongoDB</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-secondary">Razorpay</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-secondary">Cloudinary</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary font-code-sm text-code-sm text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>Source Code</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:text-primary font-code-sm text-code-sm text-on-surface-variant transition-colors" onclick="openProjectModal('Fashion E-Commerce Platform', 'I built a comprehensive full-stack fashion e-commerce application using React, Vite, Redux Toolkit, Node.js, Express.js, and MongoDB. The system incorporates complete user flows including registration, JWT authentication, cart state persistence, Razorpay payment processing, order placement, and an administrative interface to upload product images through Cloudinary.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Architecture</span>
+</button>
+</div>
+</div>
+<!-- Project 02: E-Commerce Admin Panel -->
+<div class="bg-surface-container rounded-xl p-6 lg:p-8 shadow-sm flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-code-sm text-code-sm text-primary font-mono font-semibold">PROJECT 02 // MANAGEMENT</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">analytics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">
+              E-Commerce Admin Panel
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              I developed an admin panel for managing an e-commerce application. It provides complete administrative control over inventory, order processing, and telemetry.
+            </p>
+<!-- Key Features -->
+<div class="space-y-2 mb-6">
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Real-time analytical overview, revenue summary, and transaction status counters.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Granular product CRUD operations with automated inventory recalculation.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Protected admin route authentication and role-based access verification.</span>
+</div>
+</div>
+<!-- Tech Stack Tags -->
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">Vite</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Redux Toolkit</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">MongoDB</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary font-code-sm text-code-sm text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>Source Code</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:text-primary font-code-sm text-code-sm text-on-surface-variant transition-colors" onclick="openProjectModal('E-Commerce Admin Panel', 'I developed this administrative dashboard to give store managers fine-grained control over catalog items, order state transitions (Pending, Dispatched, Delivered), and customer records. Built on React and Redux with protected backend endpoints.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Architecture</span>
+</button>
+</div>
+</div>
+<!-- Project 03: OTP Authentication System -->
+<div class="bg-surface-container rounded-xl p-6 lg:p-8 shadow-sm flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-code-sm text-code-sm text-primary font-mono font-semibold">PROJECT 03 // SECURITY</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">password</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">
+              OTP Authentication System
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              I built a full-stack authentication system with OTP-based verification. Emphasizing cryptographically secure tokens and automated session expiry.
+            </p>
+<div class="space-y-2 mb-6">
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Time-sensitive one-time passcode (OTP) generation and email dispatch.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Bcrypt password hashing and JWT token issuance upon successful OTP check.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Protected route wrapper components guarding private dashboard views.</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">MongoDB</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-secondary">JWT</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary font-code-sm text-code-sm text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>Source Code</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:text-primary font-code-sm text-code-sm text-on-surface-variant transition-colors" onclick="openProjectModal('OTP Authentication System', 'I engineered this security service to eliminate plain-text passwords and provide two-step verification. The server generates an ephemeral numeric OTP stored with a TTL index in MongoDB, verifies user input, and mints a short-lived JSON Web Token.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Architecture</span>
+</button>
+</div>
+</div>
+<!-- Project 04: Currency Exchange Application -->
+<div class="bg-surface-container rounded-xl p-6 lg:p-8 shadow-sm flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-code-sm text-code-sm text-primary font-mono font-semibold">PROJECT 04 // WEB APPLICATION</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">currency_exchange</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">
+              Currency Exchange Application
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              I built a currency exchange application that integrates an external exchange-rate API to dynamically convert currencies with live rate tables.
+            </p>
+<div class="space-y-2 mb-6">
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Multi-currency pairing options with instant calculated conversions.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Asynchronous API data fetching with custom error boundaries &amp; loading states.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Responsive, modern interface styled using utility-first Tailwind CSS.</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">JavaScript</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">REST API</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">Tailwind CSS</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary font-code-sm text-code-sm text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>Source Code</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:text-primary font-code-sm text-code-sm text-on-surface-variant transition-colors" onclick="openProjectModal('Currency Exchange Application', 'I designed and built this application using React and Tailwind CSS. It communicates with a live third-party financial exchange API to provide real-time conversion rates across 30+ international currencies with caching to avoid rate limit throttling.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Architecture</span>
+</button>
+</div>
+</div>
+<!-- Project 05: Blog Admin Panel (Spans 2 cols on desktop for variety) -->
+<div class="lg:col-span-2 bg-surface-container rounded-xl p-6 lg:p-8 shadow-sm flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-code-sm text-code-sm text-primary font-mono font-semibold">PROJECT 05 // CONTENT SYSTEM</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">edit_note</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">
+              Blog Admin Panel &amp; CMS
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed max-w-2xl">
+              I developed an admin panel for managing blog content. Built to streamline authoring, editorial approvals, categorization, and publication schedules.
+            </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Rich content drafting with markdown parsing, category tag taxonomy, and slug generator.</span>
+</div>
+<div class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
+<span>Robust CRUD API with MongoDB schema population for author bios and comments.</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-primary">React</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Express.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">Node.js</span>
+<span class="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant">MongoDB</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary font-code-sm text-code-sm text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>Source Code</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-low hover:text-primary font-code-sm text-code-sm text-on-surface-variant transition-colors" onclick="openProjectModal('Blog Admin Panel &amp; CMS', 'I architected this content management admin panel using Node.js, Express.js, React, and MongoDB. It allows content managers to draft articles, preview rendered output, organize stories by category, and trigger published state flags.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Architecture</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 7. MY DEVELOPMENT JOURNEY (id='journey')                          -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface" id="journey">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">05 / Chronology</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">My Development Journey</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          A milestone-driven progression of how I expanded my engineering expertise over time.
+        </p>
+</div>
+<!-- Timeline Container -->
+<div class="relative">
+<div class="space-y-6">
+<!-- Milestone 01 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                01
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Web Foundations</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I started with HTML, CSS, and JavaScript fundamentals, understanding the core building blocks of the web and interactive DOM manipulations.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Foundations</span>
+</div>
+<!-- Milestone 02 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                02
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Frontend Development</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I expanded into React, Vite, React Router, and Redux Toolkit to build modular single-page applications with centralized state management.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Frontend</span>
+</div>
+<!-- Milestone 03 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                03
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Backend Development</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I built modular Node.js and Express.js REST APIs, implementing secure routing patterns, middleware chains, and asynchronous I/O workflows.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Backend</span>
+</div>
+<!-- Milestone 04 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                04
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Database Engineering</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I engineered data schemas in MongoDB using Mongoose and relational tables in MySQL, learning proper indexing, query optimization, and relationships.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Databases</span>
+</div>
+<!-- Milestone 05 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                05
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Full-Stack Applications</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I built end-to-end e-commerce platforms and admin panels, gaining valuable production experience integrating payment gateways and authentication.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Full-Stack</span>
+</div>
+<!-- Milestone 06 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary font-mono font-bold text-headline-sm shrink-0">
+                06
+              </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Python Ecosystem</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I deepened my Python skills, mastering OOP principles, backend development with Django, and script automation with the standard library.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded w-fit shrink-0">Python</span>
+</div>
+<!-- Milestone 07 -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-surface-container-high transition-colors">
+<div class="flex items-start md:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary font-mono font-bold text-headline-sm shrink-0">
+                07
+              </div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">AI / Machine Learning</h3>
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  I am actively exploring NumPy, Pandas, Scikit-learn, and Machine Learning models to integrate intelligent services into full-stack software.
+                </p>
+</div>
+</div>
+<span class="font-code-sm text-code-sm text-secondary bg-secondary/10 px-3 py-1 rounded w-fit shrink-0">Current Horizon</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 8. WHAT I'M LEARNING NOW & DEVELOPER CONSOLE                     -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface-container-lowest">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left: What I'm Learning Now narrative & roadmap -->
+<div class="lg:col-span-7 bg-surface-container rounded-xl p-8 shadow-sm">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-secondary font-semibold uppercase">Active Upskilling</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-4">What I'm Learning Now</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            I'm currently expanding my Python knowledge and moving deeper into Artificial Intelligence and Machine Learning. My current learning path includes numerical computing, data analysis, statistics, machine learning fundamentals, and eventually deep learning models.
+          </p>
+<div class="space-y-4">
+<span class="font-code-sm text-code-sm text-on-surface font-medium uppercase tracking-wider block">Structured Learning Pipeline</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<div class="bg-surface-container-low p-3.5 rounded-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">calculate</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface font-medium">Numerical Computation</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">NumPy Arrays &amp; Matrix Ops</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-3.5 rounded-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">table_chart</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface font-medium">Data Transformation</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Pandas DataFrames &amp; Cleaning</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-3.5 rounded-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">insights</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface font-medium">Data Visualization</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Matplotlib Visual Analysis</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-3.5 rounded-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">model_training</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface font-medium">Applied ML Models</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Scikit-learn Pipelines</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Interactive Developer Console -->
+<div class="lg:col-span-5 bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="bg-surface-container-high px-4 py-3 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">terminal</span>
+<span class="font-code-sm text-code-sm text-on-surface font-mono">dev-console: interactive</span>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant">v2.4</span>
+</div>
+<div class="p-6 font-mono font-code-sm text-code-sm space-y-4">
+<p class="text-on-surface-variant">Click any simulated query to inspect my profile:</p>
+<div class="flex flex-wrap gap-2">
+<button class="px-2.5 py-1.5 rounded bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="displayConsoleOutput('cat about-me.txt')" type="button">
+                $ cat about-me.txt
+              </button>
+<button class="px-2.5 py-1.5 rounded bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="displayConsoleOutput('tech-stack')" type="button">
+                $ tech-stack
+              </button>
+<button class="px-2.5 py-1.5 rounded bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="displayConsoleOutput('current-focus')" type="button">
+                $ current-focus
+              </button>
+<button class="px-2.5 py-1.5 rounded bg-surface-container-lowest text-secondary hover:bg-secondary hover:text-on-secondary transition-colors" onclick="displayConsoleOutput('goal')" type="button">
+                $ goal
+              </button>
+</div>
+<!-- Output Display Box -->
+<div class="bg-surface-container-lowest p-4 rounded-lg min-h-[140px] text-on-surface leading-relaxed overflow-y-auto" id="dev-console-result">
+<span class="text-secondary">&gt; </span>Select a command above to inspect my profile variables.
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 9. CONTACT & CONNECT (id='contact')                               -->
+<!-- ================================================================= -->
+<section class="w-full py-20 bg-surface" id="contact">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-code-sm text-code-sm text-primary font-semibold tracking-wider uppercase">06 / Let's Connect</span>
+<div class="h-0.5 w-12 bg-primary/40"></div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Let's Build Something Together</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          If you have a project idea, job opportunity, freelance requirement, or simply want to talk about technology, I'd love to hear from you.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Column: Direct Contacts & Status -->
+<div class="lg:col-span-5 space-y-6">
+<div class="bg-surface-container rounded-xl p-8 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-4">Direct Channels</h3>
+<div class="space-y-4">
+<a class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface transition-colors" href="mailto:contact@aashish.dev">
+<span class="material-symbols-outlined text-primary text-[22px]">alternate_email</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface-variant">Email Address</div>
+<div class="font-code-md text-code-md font-medium text-on-surface">contact@aashish.dev</div>
+</div>
+</a>
+<a class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface transition-colors" href="https://linkedin.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-[22px]">hub</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface-variant">Professional Network</div>
+<div class="font-code-md text-code-md font-medium text-on-surface">linkedin.com/in/aashish-mishra</div>
+</div>
+</a>
+<a class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface transition-colors" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-primary text-[22px]">code</span>
+<div>
+<div class="font-code-sm text-code-sm text-on-surface-variant">Code Repositories</div>
+<div class="font-code-md text-code-md font-medium text-on-surface">github.com/aashishmishra</div>
+</div>
+</a>
+</div>
+</div>
+<!-- Availability Card -->
+<div class="bg-surface-container rounded-xl p-6 shadow-sm">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-badge-label text-badge-label text-secondary font-semibold">CURRENT STATUS</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              I am actively seeking full-time Full-Stack Developer, MERN Developer, and Python Developer roles. Open to both remote and on-site opportunities.
+            </p>
+</div>
+</div>
+<!-- Right Column: Working Contact Form -->
+<div class="lg:col-span-7 bg-surface-container rounded-xl p-8 shadow-sm">
+<form class="space-y-6" id="contact-form" onsubmit="handleContactSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-code-sm text-code-sm text-on-surface-variant mb-2" for="name">Your Name *</label>
+<input class="w-full bg-surface-container-lowest px-4 py-3 rounded-lg text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" id="name" placeholder="e.g. Alex Morgan" required="" type="text"/>
+</div>
+<div>
+<label class="block font-code-sm text-code-sm text-on-surface-variant mb-2" for="email">Email Address *</label>
+<input class="w-full bg-surface-container-lowest px-4 py-3 rounded-lg text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" id="email" placeholder="alex@company.com" required="" type="email"/>
+</div>
+</div>
+<div>
+<label class="block font-code-sm text-code-sm text-on-surface-variant mb-2" for="subject">Subject *</label>
+<input class="w-full bg-surface-container-lowest px-4 py-3 rounded-lg text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" id="subject" placeholder="Project Inquiry / Job Opportunity" required="" type="text"/>
+</div>
+<div>
+<label class="block font-code-sm text-code-sm text-on-surface-variant mb-2" for="message">Your Message *</label>
+<textarea class="w-full bg-surface-container-lowest px-4 py-3 rounded-lg text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner resize-none" id="message" placeholder="Describe your project, role, or message for me..." required="" rows="5"></textarea>
+</div>
+<!-- Feedback Message Container -->
+<div class="hidden p-4 rounded-lg font-code-sm text-code-sm" id="form-feedback"></div>
+<button class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary-container text-on-primary-container font-headline-sm text-[15px] font-semibold hover:bg-primary transition-all duration-150 shadow-md" id="submit-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span>Send Message to Aashish</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- PROJECT DETAILS MODAL / DRAWER                                    -->
+<!-- ================================================================= -->
+<div class="fixed inset-0 z-50 hidden bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center p-4" id="project-modal">
+<div class="bg-surface-container w-full max-w-2xl rounded-xl shadow-2xl p-6 lg:p-8 flex flex-col justify-between max-h-[90vh] overflow-y-auto">
+<div>
+<div class="flex items-center justify-between pb-4 mb-4 border-b border-surface-container-high">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">layers</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold" id="modal-title">Project Title</h3>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" onclick="closeProjectModal()" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6" id="modal-desc"></p>
+<div class="bg-surface-container-low p-4 rounded-lg mb-6">
+<span class="font-code-sm text-code-sm text-primary font-semibold block mb-1">Architecture Note:</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Every component in this project follows strict decoupled patterns, RESTful resource status handling, and modular state containers.</span>
+</div>
+</div>
+<div class="flex justify-end gap-3 pt-4 border-t border-surface-container-high">
+<button class="px-4 py-2 rounded-lg bg-surface-container-high text-on-surface font-code-sm text-code-sm hover:bg-surface-container-highest transition-colors" onclick="closeProjectModal()" type="button">
+          Close Window
+        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- ================================================================= -->
+<!-- CLIENT-SIDE SCRIPT: INTERACTIVE TERMINAL & BEHAVIORS              -->
+<!-- ================================================================= -->
+<script>
+  // 1. HERO TERMINAL INTERACTION
+  function runTerminalCommand(cmd) {
+    const buffer = document.getElementById('terminal-buffer');
+    if (!buffer) return;
+
+    let response = '';
+    const cleanCmd = cmd.trim().toLowerCase();
+
+    if (cleanCmd === 'whoami') {
+      response = '<div class="text-on-surface pl-4 bg-surface-container-low/40 p-2 rounded">Aashish Mishra — Full-Stack Developer & Python Engineer</div>';
+    } else if (cleanCmd === 'stack') {
+      response = '<div class="text-on-surface pl-4 bg-surface-container-low/40 p-2 rounded">React, Vite, Node.js, Express.js, MongoDB, Python, Django, Redux Toolkit</div>';
+    } else if (cleanCmd === 'focus') {
+      response = '<div class="text-secondary pl-4 bg-surface-container-low/40 p-2 rounded">Full-Stack Application Architecture & Expanding into AI / Machine Learning</div>';
+    } else if (cleanCmd === 'help') {
+      response = '<div class="text-on-surface-variant pl-4 bg-surface-container-low/40 p-2 rounded">Available commands: whoami, stack, focus, clear, contact</div>';
+    } else if (cleanCmd === 'contact') {
+      response = '<div class="text-primary pl-4 bg-surface-container-low/40 p-2 rounded">Email: contact@aashish.dev | GitHub: github.com/aashishmishra</div>';
+    } else {
+      response = `<div class="text-error pl-4 bg-surface-container-low/40 p-2 rounded">zsh: command not found: ${escapeHtml(cleanCmd)}. Try 'whoami', 'stack', or 'focus'.</div>`;
+    }
+
+    const commandEntry = `
+      <div class="text-on-surface-variant">
+        <span class="text-secondary">➜</span> <span class="text-primary">~</span> <span class="text-on-surface">${escapeHtml(cleanCmd)}</span>
+      </div>
+      ${response}
+    `;
+
+    buffer.innerHTML += commandEntry;
+    buffer.scrollTop = buffer.scrollHeight;
+  }
+
+  function handleTerminalSubmit(e) {
+    e.preventDefault();
+    const input = document.getElementById('terminal-input');
+    if (!input || !input.value.trim()) return;
+    runTerminalCommand(input.value);
+    input.value = '';
+  }
+
+  function clearTerminalLogs() {
+    const buffer = document.getElementById('terminal-buffer');
+    if (buffer) {
+      buffer.innerHTML = '<div class="text-on-surface-variant font-code-sm text-code-sm">Terminal cleared. Ready for next query.</div>';
+    }
+  }
+
+  // 2. DEVELOPER CONSOLE INTERACTION
+  function displayConsoleOutput(cmd) {
+    const target = document.getElementById('dev-console-result');
+    if (!target) return;
+
+    if (cmd === 'cat about-me.txt') {
+      target.innerHTML = `<span class="text-secondary">$ cat about-me.txt</span><br/><br/>"I build complete web applications with the MERN stack and Python. I enjoy understanding how systems work behind the interface — from API architecture and databases to state management and third-party integrations."`;
+    } else if (cmd === 'tech-stack') {
+      target.innerHTML = `<span class="text-secondary">$ tech-stack</span><br/><br/>[Frontend]: React, JavaScript, Tailwind, Redux Toolkit<br/>[Backend]: Node.js, Express, Python, Django<br/>[Database]: MongoDB Atlas, MySQL`;
+    } else if (cmd === 'current-focus') {
+      target.innerHTML = `<span class="text-secondary">$ current-focus</span><br/><br/>"I am expanding my knowledge toward Artificial Intelligence and Machine Learning using Python, NumPy, Pandas, and Scikit-learn."`;
+    } else if (cmd === 'goal') {
+      target.innerHTML = `<span class="text-secondary">$ goal</span><br/><br/>"To contribute my full-stack engineering capabilities to an innovative engineering team and engineer robust, high-impact web products."`;
+    }
+  }
+
+  // 3. PROJECT DETAILS MODAL
+  function openProjectModal(title, desc) {
+    const modal = document.getElementById('project-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDesc = document.getElementById('modal-desc');
+    if (modal && modalTitle && modalDesc) {
+      modalTitle.textContent = title;
+      modalDesc.textContent = desc;
+      modal.classList.remove('hidden');
+    }
+  }
+
+  function closeProjectModal() {
+    const modal = document.getElementById('project-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+  }
+
+  // 4. CONTACT FORM HANDLING
+  function handleContactSubmit(e) {
+    e.preventDefault();
+    const feedback = document.getElementById('form-feedback');
+    const submitBtn = document.getElementById('submit-btn');
+
+    if (feedback && submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[18px]">progress_activity</span><span>Sending message...</span>';
+
+      setTimeout(() => {
+        feedback.className = 'p-4 rounded-lg font-code-sm text-code-sm bg-secondary/10 text-secondary border border-secondary/30 block';
+        feedback.innerHTML = 'Thank you! Your message has been received. I will review your query and respond shortly.';
+        document.getElementById('contact-form').reset();
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">send</span><span>Send Message to Aashish</span>';
+      }, 1000);
+    }
+  }
+
+  // 5. ACTIVE NAVIGATION OBSERVER (Links highlight based on section scroll)
+  document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a[data-path]');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href === `#${id}`) {
+              link.classList.add('text-primary', 'font-semibold');
+              link.classList.remove('text-on-surface-variant');
+            } else {
+              link.classList.remove('text-primary', 'font-semibold');
+              link.classList.add('text-on-surface-variant');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+
+    sections.forEach(sec => observer.observe(sec));
+
+    // Close modal on click outside
+    const modal = document.getElementById('project-modal');
+    if (modal) {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          closeProjectModal();
+        }
+      });
+    }
+  });
+
+  function escapeHtml(str) {
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+</script></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop py-2xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-xl mb-2xl"><div class="md:col-span-2 space-y-md"><div class="flex items-center gap-sm"><div class="w-8 h-8 rounded-xl bg-surface-container flex items-center justify-center text-primary"><span class="font-code-md text-code-md font-semibold">AM</span></div><span class="font-headline-sm text-headline-sm text-on-surface">Aashish Mishra</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Full-Stack Architect and Systems Engineer crafting high-performance distributed solutions, cloud architectures, and developer experiences.</p><div class="flex items-center gap-sm pt-xs"><span class="inline-flex items-center px-sm py-xs rounded-lg bg-surface-container font-badge-label text-badge-label text-secondary"><span class="w-1.5 h-1.5 rounded-full bg-secondary mr-1.5 animate-pulse"></span>AVAILABLE FOR ROLES</span></div></div><div class="space-y-md"><div class="font-headline-sm text-headline-sm text-on-surface">Navigation</div><ul class="space-y-sm font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#home">Home</a></li><li><a class="hover:text-primary transition-colors" href="#about">About Me</a></li><li><a class="hover:text-primary transition-colors" href="#skills">Skills &amp; Tech</a></li><li><a class="hover:text-primary transition-colors" href="#experience">Experience</a></li><li><a class="hover:text-primary transition-colors" href="#projects">Featured Projects</a></li><li><a class="hover:text-primary transition-colors" href="#journey">Career Journey</a></li></ul></div><div class="space-y-md"><div class="font-headline-sm text-headline-sm text-on-surface">Network &amp; Social</div><ul class="space-y-sm font-body-md text-body-md text-on-surface-variant"><li><a class="flex items-center gap-xs hover:text-primary transition-colors" href="https://github.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">code</span><span class="font-code-md text-code-md">GitHub</span></a></li><li><a class="flex items-center gap-xs hover:text-primary transition-colors" href="https://linkedin.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">hub</span><span class="font-code-md text-code-md">LinkedIn</span></a></li><li><a class="flex items-center gap-xs hover:text-primary transition-colors" href="mailto:contact@aashish.dev"><span class="material-symbols-outlined text-[18px]">alternate_email</span><span class="font-code-md text-code-md">Email</span></a></li><li><a class="flex items-center gap-xs hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">terminal</span><span class="font-code-md text-code-md">Resume PDF</span></a></li></ul></div></div><div class="pt-xl border-t border-outline-variant flex flex-col sm:flex-row items-center justify-between gap-base text-on-surface-variant font-code-sm text-code-sm"><div>© 2025 Aashish Mishra. Built for high performance.</div><div class="flex items-center gap-lg"><span class="text-on-surface-variant">UTC+05:30</span><span class="text-primary">v2.4.0-prod</span></div></div></div></footer></body></html>
